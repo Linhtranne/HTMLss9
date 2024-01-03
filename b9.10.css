@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .insert-border-effect {
+    width: 100px;
+    height: 100px;
+    background-color: #505152;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .insert-border-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid transparent;
+    transition: border-color 0.7s ease;
+  }
+  
+  .insert-border-effect:hover::before {
+    border-color: #5422df;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    size: 35px;
+  }
+  

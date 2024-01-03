@@ -1,0 +1,16 @@
+h1{
+    color: white;
+    padding: 50px;
+    align-self: start;
+}
+div{
+    text-align: center;
+    background-color: gainsboro;
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    background-size: cover;
+}
+div:hover{
+    background-color:gray;
+}

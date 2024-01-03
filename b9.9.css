@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .square-to-circle-effect {
+    width: 100px;
+    height: 100px;
+    background-color: #6e7172;
+    border-radius: 0;
+    transition: border-radius 0.5s ease;
+  }
+  
+  .square-to-circle-effect:hover {
+    border-radius: 50%;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    size: 35px;
+  }
+  

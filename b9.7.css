@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .shrink-effect {
+    width: 100px;
+    height: 100px;
+    background-color: #97999b;
+    transition: transform 0.3s ease;
+  }
+  
+  .shrink-effect:hover {
+    transform: scale(0.8);
+  }
+h2{
+    color: wheat;
+    text-align: center;
+}
+
+  
